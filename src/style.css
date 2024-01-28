@@ -1,0 +1,169 @@
+ body {
+   background-color: rgba(253, 251, 251, 0.281);
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto", sans-serif;
+
+ }
+
+ 
+
+ .head-section {
+   display: flex;
+   align-items: baseline;
+   margin-bottom: 2px;
+   padding: 8px;
+   z-index: index 1;
+   background-color: azure;
+
+
+ }
+
+ .smallLogoImage {
+   height: 60px;
+   width: 60px;
+   margin-right: 4px;
+   border-radius: 50px;
+
+
+ }
+
+ .bannerImageDiv {
+   height: 400px;
+   width: 100%;
+   object-fit: cover;
+
+ }
+ 
+
+ #about{
+  text-align: center;
+  color: gray;
+ }
+
+ .aboutAndImage {
+  display: flex;
+  align-items: start;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  
+}
+ .aboutText {
+   
+   color: gray;
+   font-size: 30px;
+   width: 50%;
+   padding:0 8px;
+   margin-top: 0 ;
+   text-align: justify; 
+   
+ }
+ .imagine{
+  font-size: 25px;
+  text-align: center;
+  font-style: oblique;
+ }
+ .connect-link{
+  float: right;
+ }
+
+ .aboutTextDiv {
+   width: 50%;
+   
+ }
+
+ .imgside {
+   width: 50%;
+   margin-top: 0;
+  
+ }
+ a {
+  text-decoration: none;
+ }
+
+ #footer{
+  background-color: rgb(224, 221, 221);
+ }
+  .liststyle{
+  list-style: none;
+  padding: 18px;
+  margin-top: 16px;
+  text-align: center;
+ }
+  
+ 
+ .liststyle li {
+  display: inline;
+  margin: 0 10px;
+ }
+ .objectives{
+  max-width: 700px;
+  margin: 0 auto;
+  
+ }
+ .tablee {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  
+  
+  
+ }
+ .job-row th {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: #6366f1;
+  text-align: left;
+  
+ }
+ td{
+  border: 1px solid gray;
+  padding: 8px;
+
+ }
+ tr:nth-child(odd) {
+  background-color: #a5b4fc;
+ }
+ .pdetails{
+  text-align: center;
+ }
+ .applicationDiv{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 8px;
+
+ }
+ .application-form div{
+  margin: 12px;
+  
+ }
+ .application-form label{
+  font-weight: 600;
+ }
+ .application-form input, select{
+  padding: 4px;
+  font-size: 20px;
+  margin-top: 4px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+ }
+ #submit{
+  background-color: #4f46e5;
+  color: white;
+  padding: 8px;
+  width: 200px;
+  cursor: pointer;
+ }
+ 
+ 
+
+ .coll{
+  text-align: center;
+ }
+
+  
+ .bottomfoot{
+  text-align: center;
+ }
